@@ -67,21 +67,21 @@ header .navbar-brand{padding: 0;}
 .cnt-city>span{width: 17px;height: 17px;background: url(../img/ico-city.png) no-repeat;background-size: 100% 100%;margin-right: 5px;display: inline-block;vertical-align: top;}
 /*Section*/
 .wrapper{padding: 15px 0;}
-.item-category{margin-bottom: 20px;}
-.item-category>span{display: inline-block;vertical-align: middle;margin-right: 55px;font-size: 17px;color: #4a4a4a;margin-left: 12px;font-family: "AkkuratBold", arial;}
-.item-category ul{display: inline-block;vertical-align: middle;}
+.item-category{margin-bottom: 12px;position: relative;}
+.item-category>span{margin-right: 55px;font-size: 17px;color: #4a4a4a;margin-left: 12px;font-family: "AkkuratBold", arial;position: absolute;left: 0;top: 0;}
+.item-category ul{display: inline-block;vertical-align: middle;padding-left: 160px;}
 .item-category ul li{float: left;margin-right: 45px;}
 .item-category ul li:last-child{margin-right: 0;}
-.item-category ul li a{display: block;font-size: 17px;color: #9b9b9b;font-family: "AkkuratLightRegular", arial;}
+.item-category ul li a{display: block;font-size: 17px;color: #9b9b9b;font-family: "AkkuratLightRegular", arial;margin-bottom: 8px;}
 .cnt-productos>.row{margin-left: -8px;margin-right: -8px;}
 .cnt-productos>.row>.col-md-4{padding-left: 8px;padding-right: 8px;}
 .item-product{padding: 25px;background: #fff;border-radius: 20px;-webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.10);-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.10);box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.10);overflow: hidden;margin-bottom: 16px;}
-.item-product h2{margin-top: 0;margin-bottom: 12px;}
+.item-product h2{margin-top: 0;margin-bottom: 12px;height: 25px;overflow: hidden;}
 .item-product h2 a{display: block;font-size: 23px;color: #363636;font-weight: 400;}
 .item-product p{line-height: 130%;font-size: 13px;color: #9b9b9b;font-weight: 400;margin-bottom: 28px;height: 32px;overflow: hidden;}
 .item-product figure{margin-left: -25px;margin-right: -25px;margin-bottom: -25px;}
 .item-product figure img{width: 100%;}
-.item-product .b-prec{font-size: 23px;color: #363636;font-weight: 400;margin-bottom: 15px;line-height: 100%;}
+.item-product .b-prec{font-size: 23px;color: #363636;font-weight: 400;margin-bottom: 15px;line-height: 100%;height: 23px;overflow: hidden;}
 /*Cupon*/
 .b-cupon .wrapper{padding: 0;}
 .header-cupon{padding: 60px 0;background: url(../img/bg-cupon.jpg) no-repeat;background-size: cover;background-position: center center;}
@@ -136,7 +136,7 @@ header .navbar-brand{padding: 0;}
 .inner-login form button{width: 100%;}
 /*Modal*/
 .custon-modal .modal-dialog{width: 550px;}
-.modal-backdrop.in{opacity: 0.5;}
+.modal-backdrop.in{opacity: 0.6;}
 .custon-modal .modal-content{border:0;border-radius: 15px;padding: 40px;}
 .cnt-logo-m{margin-bottom: 20px;}
 .custon-on h3{margin-bottom: 12px;font-size: 23px;color: #363636;font-weight: 400;margin-top: 0;}
@@ -177,3 +177,31 @@ footer{background: #000;padding: 50px 0;}
 .bloque-f h4{margin-top: 0;margin-bottom: 25px;color: #fff;font-size: 19px;font-family: "proxima_nova_semibold", arial;}
 .bloque-f ul li{margin-bottom: 20px;}
 .bloque-f ul li a,.bloque-f ul li{display: block;color: #fff;font-size: 19px;font-family: "proxima_nova_thin", arial;}
+@media only screen and (max-width: 2000px){
+
+}
+@media only screen and (max-width: 992px){
+    /*Display none provicional*/
+    .cnt-city{display: none;}
+    .search-custon{display: none;}
+    /**/
+}
+@media only screen and (max-width: 768px){
+    .bloque-f ul{text-align: center;margin-bottom: 30px;}
+    .bloque-f ul li{margin-bottom: 10px;}
+    .bloque-f h4{text-align: center;}
+    footer{padding: 50px 0 10px 0;}
+    .item-cupon{width: 100%;}
+    .body-cupon{width: 100%;}
+    .cnt-user-info{width: 100%;}
+}
+@media only screen and (max-width: 600px){
+    .inner-login form{width: 100%;}
+    .inner-login p{margin-bottom: 40px;}
+}
+@media only screen and (max-width: 480px){
+    .main-login{padding-bottom: 120px;}
+    .cnt-filter-s select{width: 100%;}
+    .cnt-puntos{padding: 20px;}
+    .cnt-user-info{padding: 20px;}
+}
