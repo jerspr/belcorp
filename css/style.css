@@ -57,7 +57,7 @@ body{font-family: "AkkuratRegular", Arial;font-size: 12px;font-weight: 400;}
 body.b-page, body.b-cupon{background: #faf7f7;}
 /*Header*/
 header{height: 70px;background: #fff;-webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.3);-moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.3);box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.3);}
-header nav{margin-bottom: 0!important;border:0!important;border-radius: 0!important;min-height: 70px!important;background: #fff!important;}
+header nav{margin-bottom: 0!important;border:0!important;border-radius: 0!important;min-height: 70px!important;background: #fff!important;z-index: 9;}
 header .navbar-brand{padding: 0;}
 .user-list>li>a{display: block;font-size: 19px;color: #4a4a4a!important;padding: 0;padding: 11px 0;}
 .user-list li .user{width: 48px;height: 48px;display: inline-block;vertical-align: middle;background: url(../img/ico-user.png) no-repeat;background-size: 100% 100%;}
@@ -69,10 +69,13 @@ header .navbar-brand{padding: 0;}
 .wrapper{padding: 15px 0;}
 .item-category{margin-bottom: 12px;position: relative;}
 .item-category>span{margin-right: 55px;font-size: 17px;color: #4a4a4a;margin-left: 12px;font-family: "AkkuratBold", arial;position: absolute;left: 0;top: 0;}
-.item-category ul{display: inline-block;vertical-align: middle;padding-left: 160px;}
-.item-category ul li{float: left;margin-right: 45px;}
+.cnt-content-list-cat{padding-left: 140px;}
+.list-cat-cnt{display: block;float: left;width: 100%;white-space: nowrap;overflow-x: auto;-webkit-overflow-scrolling: touch;-ms-overflow-style: -ms-autohiding-scrollbar;}
+.item-category ul{}
+.item-category ul li{display: inline-block;text-align: left;vertical-align: middle;margin-left: 10px;margin-right: 10px;}
 .item-category ul li:last-child{margin-right: 0;}
 .item-category ul li a{display: block;font-size: 17px;color: #9b9b9b;font-family: "AkkuratLightRegular", arial;margin-bottom: 8px;}
+.item-category ul li a:hover, .item-category ul li a:active, .item-category ul li a:focus{text-decoration: none;}
 .cnt-productos>.row{margin-left: -8px;margin-right: -8px;}
 .cnt-productos>.row>.col-md-4{padding-left: 8px;padding-right: 8px;}
 .item-product{padding: 25px;background: #fff;border-radius: 20px;-webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.10);-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.10);box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.10);overflow: hidden;margin-bottom: 16px;}
@@ -194,6 +197,7 @@ footer{background: #000;padding: 50px 0;}
     .item-cupon{width: 100%;}
     .body-cupon{width: 100%;}
     .cnt-user-info{width: 100%;}
+    .custon-modal .modal-dialog{width: auto;}
 }
 @media only screen and (max-width: 600px){
     .inner-login form{width: 100%;}
