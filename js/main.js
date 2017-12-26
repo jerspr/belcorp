@@ -4,25 +4,53 @@ var objBel = {
 	},
 	/*LLamados de modal de pruebas*/
 	oneModal: function(){
-		$('#oneModal').modal('show');
+		$('#oneModal').modal({
+			backdrop: false,
+			show: true,
+			keyboard: false
+		});
 	},
 	twoModal: function(){
-		$('#twoModal').modal('show');
+		$('#twoModal').modal({
+			backdrop: false,
+			show: true,
+			keyboard: false
+		});
 	},
 	threeModal: function(){
-		$('#threeModal').modal('show');
+		$('#threeModal').modal({
+			backdrop: false,
+			show: true,
+			keyboard: false
+		});
 	},
 	fourModal: function(){
-		$('#fourModal').modal('show');
+		$('#fourModal').modal({
+			backdrop: false,
+			show: true,
+			keyboard: false
+		});
 	},
 	fiveModal: function(){
-		$('#fiveModal').modal('show');
+		$('#fiveModal').modal({
+			backdrop: false,
+			show: true,
+			keyboard: false
+		});
 	},
 	sixModal: function(){
-		$('#sixModal').modal('show');
+		$('#sixModal').modal({
+			backdrop: false,
+			show: true,
+			keyboard: false
+		});
 	},
 	sevenModal: function(){
-		$('#sevenModal').modal('show');
+		$('#sevenModal').modal({
+			backdrop: false,
+			show: true,
+			keyboard: false
+		});
 	}
 	/*End*/
 }

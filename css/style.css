@@ -150,7 +150,7 @@ header .navbar-brand{padding: 0;}
 .custon-on h3{margin-bottom: 12px;font-size: 23px;color: #363636;font-weight: 400;margin-top: 0;}
 .custon-on p{margin-bottom: 30px;font-size: 21px;color: #4a4a4a;line-height: 130%;font-family: "AkkuratBold", arial;}
 .custon-modal .btn-belcorp{width: 190px;margin: 0 auto;display: block;line-height: 50px;}
-.custon-modal .star-ico{position: absolute;top: 15px;right: 15px;font-size: 20px;color: #009dff;}
+.custon-modal .star-ico{position: absolute;top: 15px;right: 15px;font-size: 20px;color: #009dff;cursor: pointer;}
 .line-v{margin-left: -40px;margin-right: -40px;height: 2px;background: #cecece;margin-top: 30px;margin-bottom: 30px;}
 .custon-modal p.desc{font-size: 21px;color: #363636;font-weight: 700;line-height: 120%;margin-bottom: 15px;font-family: "AkkuratBold", arial;}
 .text-custom-ch{text-align: center;margin-bottom: 20px;}
@@ -175,6 +175,7 @@ p.m-text{font-size: 19px;color: #9b9b9b;margin-bottom: 20px;}
 .cnt-cont-uso{margin-bottom: 30px;}
 .cnt-cont-uso h3{margin-top: 0;margin-bottom: 5px;color: #363636;font-size: 23px;font-weight: 700;}
 .cnt-cont-uso p{line-height: 130%;font-size: 13px;color: #9b9b9b;}
+.custon-modal.fade.in{background: rgba(0,0,0,0.6);}
 /*search*/
 .search-custon{margin-right: 15px;position: relative;}
 .search-custon input{border: 1px solid #d8d8d8;padding-left: 40px;border-radius: 5px;width: 250px;margin-top: 15px;height: 40px;}
