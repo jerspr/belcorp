@@ -51,6 +51,13 @@ var objBel = {
 			show: true,
 			keyboard: false
 		});
+	},
+	eightModal: function(){
+		$('#eightModal').modal({
+			backdrop: false,
+			show: true,
+			keyboard: false
+		});
 	}
 	/*End*/
 }
