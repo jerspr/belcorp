@@ -1,6 +1,15 @@
 var objBel = {
 	init: function(){
+		objBel.sliderHome();
 		console.log("Probando...");
+	},
+	sliderHome: function(){
+		$(".slider-promocion").slick({
+			slidesToShow:1,
+			slidesToScroll:1,
+			autoplay:true,
+			autoplaySpeed:5000
+		});
 	},
 	/*LLamados de modal de pruebas*/
 	oneModal: function(){
